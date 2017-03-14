@@ -33,12 +33,9 @@ $ heroku open
 
 ## What is PaaS?
 
-PAAS usually refers to a service that takes care of the underlying hardware and OS that comes with building a web application. As developers, these platforms allow us to easily build or prototype applications without handling any hardware or configuring servers.
+PaaS (Platform as a service) is a set of services aimed at developers that helps them to develop, run, and manage applications without the complexity of building and maintaining the underlying infrastructure typically associated with developing and launching an app.
 
-PaaS is a set of services aimed at developers that helps them develop and test apps without having to worry about the underlying infrastructure.
-
-a platform allowing customers to develop, run, and manage applications without the complexity of building and maintaining the infrastructure typically associated with developing and launching an app.
-
+You can of course choose to build the infrastructure around an app yourself, but this is time consuming, and if things go wrong you're on your own. Using a PaaS such as Heroku, you can deploy quickly, forget about the infrastructure, and just focus on improving your app.
 
 ## Why is it useful to be able to deploy your code to a cloud platform, rather than running it locally?
 
@@ -46,12 +43,17 @@ a platform allowing customers to develop, run, and manage applications without t
 
 ## What services are there that can provide you with a platform for your code? Heroku is a good start, but try to find some others.
 
-- Heroku
-- Microsoft Azure (serves 65% of Fortune 500 companies)
-- Linode (high-performance SSD Linux servers)
+- [Heroku](https://www.heroku.com/)
+- [Microsoft Azure (serves 65% of Fortune 500 companies)](https://azure.microsoft.com/en-us/)
+- [Linode (high-performance SSD Linux servers)](https://www.linode.com/)
 - [Appfog](https://www.ctl.io/appfog/)
 - [Docker Cloud](https://cloud.docker.com/)
 
+**Benefits of Using Heroku**
+
+- you can host as many apps as you like on Heroku (though there are limits on data and Heroku has 'unscheduled downtime').
+- Scale. If you make a small app that suddenly becomes popular, Heroku will adjust the servers to support the influx of new servers.
+- Heroku uses Git.
 
 
 ## Resources:
