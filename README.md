@@ -79,3 +79,4 @@ Questions:
 1. What is Paas?
 2. How could you share secret variables/keys with other developers?
 3. Why would you rather use a .env file over a .json file?
+4. Bonus: Why is our secret key accessible via the browser?
