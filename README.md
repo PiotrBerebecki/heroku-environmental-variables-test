@@ -73,3 +73,9 @@ Heroku will use a different port to the one you use locally.
 ## What modules might you use to help manage environment variables?
 
 [Env2](https://github.com/dwyl/env2)
+
+
+Questions:
+1. What is Paas?
+2. How could you share secret variables/keys with other developers?
+3. Why would you rather use a .env file over a .json file?
