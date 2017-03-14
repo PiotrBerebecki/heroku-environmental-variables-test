@@ -33,7 +33,7 @@ $ heroku open
 
 ## What is PaaS?
 
-PAAS usually refers to a service that takes care of the underlying hardware and OS that comes with building a web application. As developers, these platforms allow us to easily build or prototype applications without handling any hardware or configuring servers.
+PaaS usually refers to a service that takes care of the underlying hardware and OS that comes with building a web application. As developers, these platforms allow us to easily build or prototype applications without handling any hardware or configuring servers.
 
 PaaS is a set of services aimed at developers that helps them develop and test apps without having to worry about the underlying infrastructure.
 
@@ -42,7 +42,7 @@ a platform allowing customers to develop, run, and manage applications without t
 
 ## Why is it useful to be able to deploy your code to a cloud platform, rather than running it locally?
 
-
+Paas provider is responsible for hardware, utility costs etc. and developer is responsible for developing and maintaining a nice app.
 
 ## What services are there that can provide you with a platform for your code? Heroku is a good start, but try to find some others.
 
