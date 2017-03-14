@@ -61,3 +61,15 @@ Paas provider is responsible for hardware, utility costs etc. and developer is r
 - [Heroku Getting Started with Node.js](https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction)
 - [What is PaaS and why does it matter?](http://www.networkworld.com/article/2163430/cloud-computing/paas-primer--what-is-platform-as-a-service-and-why-does-it-matter-.html)
 - [What is PaaS in cloud cloud-computing?](http://www.dummies.com/programming/cloud-computing/hybrid-cloud/what-is-platform-as-a-service-paas-in-cloud-computing/)
+
+## Why is it a bad idea to include certain variables in a public repository?
+
+e.g do not show your amazon key or you may be charged 50k by amazon
+
+## Why might some variables in your code need to change for different environments
+
+Heroku will use a different port to the one you use locally.
+
+## What modules might you use to help manage environment variables?
+
+[Env2](https://github.com/dwyl/env2)
