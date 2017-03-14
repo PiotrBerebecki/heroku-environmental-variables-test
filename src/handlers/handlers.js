@@ -5,6 +5,12 @@ var path = require('path');
 var handlers = {};
 
 
+handlers.serveSecret = function(request, response) {
+    response.writeHead(200, { "Content-Type": "text/html" } );
+    response.end(`</h1>${process.env.MY_SECRET_AMAZON_KEY}</h1>`);
+};
+
+
 handlers.serveLanding = function(request, response) {
   fs.readFile(path.join(__dirname, '..', '..', 'index.html'), function(err, file) {
     if (err) {

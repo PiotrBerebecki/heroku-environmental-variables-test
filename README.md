@@ -39,7 +39,7 @@ You can of course choose to build the infrastructure around an app yourself, but
 
 ## Why is it useful to be able to deploy your code to a cloud platform, rather than running it locally?
 
-
+Paas provider is responsible for hardware, utility costs etc. and developer is responsible for developing and maintaining a nice app.
 
 ## What services are there that can provide you with a platform for your code? Heroku is a good start, but try to find some others.
 

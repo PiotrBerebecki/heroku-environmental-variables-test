@@ -9,6 +9,8 @@ function router(request, response) {
     handlers.serveLanding(request, response);
   } else if (url.indexOf('public') !== -1) {
     handlers.servePublic(request, response);
+  } else if (url === '/secret') {
+    handlers.serveSecret(request, response);
   } else {
     handlers.pageNotFound(request, response);
   }
